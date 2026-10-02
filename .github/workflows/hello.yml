@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Display Hello
-        run: echo "Hello How are you!" 
+        run: echo "Hello How are you !" 

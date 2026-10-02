@@ -6,8 +6,8 @@ on:
 
 jobs:
   hello:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Display Hello
-        run: echo "Hello How are you !" 
+        run: echo "Hello How are you ! hahah" 

@@ -7,7 +7,11 @@ on:
 jobs:
   hello:
     runs-on: self-hosted
+    environment: prod
 
     steps:
       - name: Display Hello
         run: echo "Hello How are you ! hahah" 
+      - name: Next step
+        run : echo ${{secrets.MYNAME}}
+      
